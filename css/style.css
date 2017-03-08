@@ -1,0 +1,178 @@
+<<<<<<< HEAD
+h1, h2, h3 {
+font-family: 'Georgia' , Serif;
+text-align: center;
+}
+h1{
+font-size: 60px;  
+}
+h2{
+font-size: 30px;
+}
+h3{
+font-size: 15px;
+}
+
+body {
+background-color: #e74c3c;
+animation: bg-color 10s infinite;
+-webkit-animation: bg-color 10s infinite;
+}
+@-webkit-keyframes bg-color {
+0% { background-color: #e74c3c; }
+20% { background-color: #f1c40f; }
+40% { background-color: #1abc9c; }
+60% { background-color: #3498db; }
+80% { background-color: #9b59b6; }
+100% { background-color: #e74c3c; }
+}
+@keyframes bg-color {
+0% { background-color: #e74c3c; }
+20% { background-color: #f1c40f; }
+40% { background-color: #1abc9c; }
+60% { background-color: #3498db; }
+80% { background-color: #9b59b6; }
+100% { background-color: #e74c3c; }
+}
+* {
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+.clearfix:after {
+visibility: hidden;
+display: block;
+font-size: 0;
+content: " ";
+clear: both;
+height: 0;
+}
+* html .clearfix             { zoom: 1; } 
+*:first-child+html .clearfix { zoom: 1; } 
+
+body, .navBar {
+text-align: center;
+}
+.navBar {
+display: inline-block;
+background-color: #000000;
+margin: 15px auto 0 auto;
+border-radius: 0px;
+box-shadow: 0px 8px 30px -4px hsla(0, 0%, 0%, 0.6);
+font-size: 15px;
+}
+.navBar .navMenu {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+.navBar .navMenu .menuItem {
+display: inline-block;
+margin: 0;
+}
+.navBar .navMenu .menuItem .itemLink {
+display: block;  
+color: #fff;
+text-decoration: none;
+height: 30px;
+width: 100px;
+}
+.navBar .navMenu .menuItem .itemLink:hover {
+background-color: #999;
+color: #4D4D4D;
+transition: all .4s;
+}
+.navBar .navMenu .menuItem .first {
+border-radius: 3px 0 0 3px;
+}
+.navBar .navMenu .menuItem .last {
+border-radius: 0 3px 3px 0;
+}
+.navBar .navMenu .menuItem .itemLink .itemIcon {
+display: block;
+padding: 4px 0 0 0;
+line-height: 20px;
+}
+.imglogo {
+padding-top: 15px 
+}
+.container {
+width: 100%;
+max-width: 1200px;
+margin: 0 auto;
+padding-top: 10px;
+}
+.container2 {
+width: 100%;
+max-width: 1200px;
+margin: 0 auto;
+padding-top: 0px;
+}
+
+.container3 {
+width: 100%;
+max-width: 1200px;
+padding-top: 10px;
+}
+.imgabout {
+float:left;
+}
+
+
+=======
+.bookcover{
+	background-image: url(..//images/backgroundimage.jpg);
+	background-size: Cover;
+	width: 100%;
+	height: 1080px;
+
+}
+
+	h1, h2, h3, h4, h5, h6 {
+		font-family: 'PT Serif' , Serif;
+		text-align: center;
+	}
+.main {
+	width: 65%;
+	margin: auto;
+	float: left;
+
+}
+
+.rock-dude {
+	width: 30%;
+	float: right;
+}
+
+img {
+	width: 100%;
+}
+nav {
+	text-align: center;
+}
+
+
+	h1{
+		font-size: 60px;	
+
+	}
+	h2{
+		font-size: 30px;
+	}
+
+	h3{
+		font-size: 15px;
+	}
+
+	nav li {
+		display: inline-block;
+		border: 2px;
+		border-color: green;
+		border-style: solid;
+		margin-right: 10px;
+
+
+	}
+>>>>>>> origin/master
